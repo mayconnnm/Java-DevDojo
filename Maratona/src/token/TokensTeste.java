@@ -1,4 +1,4 @@
-package Token;
+package token;
 
 public class TokensTeste {
 	public static void main(String[] args) {

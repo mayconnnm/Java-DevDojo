@@ -1,4 +1,4 @@
-package wrappers;
+package wrapper;
 
 public class WrappersTeste {
 	public static void main(String[] args) {
@@ -22,26 +22,26 @@ public class WrappersTeste {
 		Character characterWrapper = 'e';
 		Boolean booleanWrapper = true;
 
-		// AutoBoxing é pegar um tipo primitivo e passar para wrapper
-		// unBoxing é passar um wrapper para tipo primitivo
+		// AutoBoxing ï¿½ pegar um tipo primitivo e passar para wrapper
+		// unBoxing ï¿½ passar um wrapper para tipo primitivo
 
 		int i = integerWrapper;
 		System.out.println(i);
 
 		String valor = "10";
-		// O método parse faz a converção de String para float
+		// O mï¿½todo parse faz a converï¿½ï¿½o de String para float
 		float f = Float.parseFloat(valor);
 		System.out.println(f);
 
-		// Verifica se o valor é um digito
+		// Verifica se o valor ï¿½ um digito
 		System.out.println(Character.isDigit('9'));
-		// Verifica se o valor é uma letra
+		// Verifica se o valor ï¿½ uma letra
 		System.out.println(Character.isLetter('a'));
-		// Verifica se o valor é uma letra ou digito
+		// Verifica se o valor ï¿½ uma letra ou digito
 		System.out.println(Character.isLetterOrDigit('b'));
-		// Verifica se o valor é com letra maiúscula
+		// Verifica se o valor ï¿½ com letra maiï¿½scula
 		System.out.println(Character.isUpperCase('C'));
-		// Verifica se o valor é com letra minúscula
+		// Verifica se o valor ï¿½ com letra minï¿½scula
 		System.out.println(Character.isLowerCase('d'));
 
 	}
