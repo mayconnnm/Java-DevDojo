@@ -1,4 +1,4 @@
-package assertivas;
+package assertiva;
 
 public class AssertTeste {
 	public static void main(String[] args) {
